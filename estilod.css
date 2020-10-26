@@ -1,0 +1,115 @@
+body{
+  background-color: #82b1ff;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+body .div{
+	display: flex;
+}
+
+li{
+  font-size: 25px;
+  font-family: Segoe UI;
+}
+
+li a{
+  color: #1a237e ;
+}
+
+li a:hover{
+  background: #e0e0e0;
+  border-radius: 5px;
+}
+
+header{
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 5px 0px;
+  display: inline-block;
+}
+
+nav a{
+ float: right;
+ line-height: 25px;
+ display: inline-block;
+ color: black;
+ text-decoration: none;
+ padding: 10px 20px;
+ line-height: normal;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: Segoe UI;
+}
+
+header nav a:hover{
+  background: yellow ;
+  border-radius: 50px;
+}
+
+.container{
+	width: 100%;
+	max-width: 100%;
+	height: 600px;
+	flex-wrap: wrap;
+	margin: center;
+}
+
+.container .card{
+	width: 350px;
+	height: 600px;
+	border-radius: 15px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+	margin: 30px;
+	text-align: center;
+	transition: all 0.25s;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.container .card:hover {
+	transform: translate(-15px);
+	box-shadow: 0 12px 16px rgba(0,0,0,0.5);
+}
+
+ img{
+	width: 350px;
+	height: 250px;
+}
+
+ p{
+	font-size: 17px;
+	font-family: Segoe UI;
+	text-align: justify;
+	margin: 5%;
+}
+
+li{
+	font-size: 17px;
+	font-family: Segoe UI;
+	text-align: justify;
+	font-weight: bold;
+	margin: 5%;
+}
+
+.contenedor{
+align-content: center;
+}
+
+.redes img{
+  width: 60px;
+  height: 50px;
+}
+
+@media (max-width: 30em){ /*30x16px=480px*/ 
+ table{
+ 	width: 100%;
+
+	table tr{
+		display: flex;
+		flex-direction: column;
+	}
+ }
